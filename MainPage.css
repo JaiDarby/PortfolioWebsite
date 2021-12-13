@@ -1,0 +1,15 @@
+body::before {
+  display: block;
+  content: "";
+  height: 50px;
+}
+
+.Logo {
+  font-size: 5em;
+}
+
+@media (min-width: 768px) {
+  .mail-input {
+    width: 50%;
+  }
+}

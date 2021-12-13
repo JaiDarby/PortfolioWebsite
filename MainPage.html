@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" id="Top">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="MainPage.css" />
+    <title>Welcome To My Page!</title>
+  </head>
+  <body>
+    <!--Nav-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Jai'Mir Darby</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#Top" class="nav-link text-secondary">Home</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle text-secondary m-1 mt-2 p-0"
+                  type="button"
+                  id="dropdownMenuButton2"
+                  data-bs-toggle="dropdown"
+                >
+                  About Me
+                </button>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="dropdownMenuButton2"
+                >
+                  <li><a class="dropdown-item" href="#BackEnd">Backend</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#FrontEnd">FrontEnd</a>
+                  </li>
+                  <li><a href="#FAQ" class="dropdown-item">FAQ</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-secondary">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-secondary">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Showcase-->
+    <section class="bg-dark text-light p-5 text-center">
+      <div class="container" id="Show">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>
+              Welcome to my
+              <span class="text-danger">Software Enginnering</span> Journey!
+            </h1>
+            <p class="lead my-4">
+              Hello! My name is
+              <span class="text-warning">Jai'Mir Darby</span> and I am a African
+              American
+              <span class="text-success">Computer Science Major</span> at
+              Florida State University! Feel free to look around to learn more
+              about me and my journey.
+            </p>
+            <p class="text-center">
+              I am planning on adding a scroll/showcase thing here
+            </p>
+          </div>
+          <img class="img-fluid w-75" src="Images/RightColor.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--Blog Updates-->
+    <section class="bg-danger text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="m3-3 mb-md-0">Get Notified When I Post</h3>
+          <div class="input-group mail-input">
+            <input type="text" class="form-control" placeholder="Enter Email" />
+            <button
+              class="btn btn-dark btn-lg"
+              type="button"
+              id="button-addon2"
+            >
+              Button
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Boxes-->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1">
+                  <i class="bi bi-code-slash mb-3"></i>
+                </div>
+                <h3 class="card-title mb-3">The Programmer</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Inventore ipsam incidunt impedit alias aliquam esse voluptates
+                  voluptatibus libero, facilis nisi.
+                </p>
+                <a href="#" class="btn btn-danger">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1">
+                  <i class="bi bi-pencil mb-3"></i>
+                </div>
+                <h3 class="card-title mb-3">The Writer</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Inventore ipsam incidunt impedit alias aliquam esse voluptates
+                  voluptatibus libero, facilis nisi.
+                </p>
+                <a href="#" class="btn btn-danger">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1">
+                  <i class="bi bi-people mb-3"></i>
+                </div>
+                <h3 class="card-title mb-3">The Friend</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Inventore ipsam incidunt impedit alias aliquam esse voluptates
+                  voluptatibus libero, facilis nisi.
+                </p>
+                <a href="#" class="btn btn-danger">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Frontend Section-->
+    <section id="FrontEnd" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img
+              src="Images/undraw_static_website_0107.svg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-md p-5">
+            <h2>My FrontEnd Experince</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              voluptas beatae praesentium, iste nobis exercitationem?
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo quas
+              ratione, illum rerum obcaecati impedit saepe fugit explicabo sequi
+              iure minus excepturi et, sunt ab eligendi deserunt perspiciatis
+              nam ad.
+            </p>
+            <a href="" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right">Read More</i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--BackEnd Section-->
+    <section id="BackEnd" class="p-5 bg-dark">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5 text-light">
+            <h2>My Backend Experince</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              voluptas beatae praesentium, iste nobis exercitationem?
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo quas
+              ratione, illum rerum obcaecati impedit saepe fugit explicabo sequi
+              iure minus excepturi et, sunt ab eligendi deserunt perspiciatis
+              nam ad.
+            </p>
+            <a href="" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right">Read More</i>
+            </a>
+          </div>
+          <div class="col-md">
+            <img
+              src="Images/undraw_programming_re_kg9v.svg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--FAQ Section-->
+    <section id="FAQ" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+              >
+                Where are you from?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                I was born and raised in Homestead, FL. About an hour south of
+                the city of Miami. I've lived there my whole life up until 2019
+                when I graduated highschool and moved to Tallahassee to pursue
+                my degree.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Why computer science?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                I suppose for me the question has always been why not computer
+                science. Junior year of highschool I decided to take a CS course
+                and I've been hooked ever sense. Often times finding myself
+                coding for hours on end just on personal projects. I figured if
+                I'm always going to be coding anyway, I might as well make a
+                carrer out of it.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseSix"
+              >
+                What year do you graduate?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                I am on track to graduate May 2023 at Florida State University.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="Questions">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                What are your strengths?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="Questions"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                My strength doesn't come from a specific language or framework.
+                But instead comes from my passion for programming. I might not
+                be someone who is able to get an assignment and knows exactly
+                what and how to do it. But I am the person who will sit there
+                for as long as it takes to figure out how to solve the problem
+                in question. No matter how much google searching, youtube
+                watching, or documentation skimming it takes.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+              >
+                What languages are you familiar with?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                I am familiar with a lot of languages. Python, C++, Java,
+                JavaScript, Swift, HTML, and CSS. However the languages I have
+                the most experince with are Python and C++.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive"
+              >
+                Are you familiar with any frameworks?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Yes! I actually am familiar with a quite a few frameworks. My
+                favorite frameworks to work with are mostly in Python. These
+                include Selinium, BS4, TensorFlow, and PyGame.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--IDK Section-->
+    <section id="#" class="p-5 bg-danger">
+      <div class="container">
+        <h2 class="text-center text-light">Social Links</h2>
+        <p class="lead text-center text-light mb-5">
+          Check out more information with the links below.
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <a href="https://github.com/JaiDarby " target="_blank"
+                  ><i class="Logo bi bi-github text-dark mb-3"></i
+                ></a>
+                <h3 class="card-title mb-3">GitHub</h3>
+                <p class="card-text">See some of my programs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <a
+                  href="https://www.linkedin.com/in/jaimir-darby-0b33ab228/"
+                  target="_blank
+                "
+                  ><i class="Logo bi bi-linkedin text-dark mb-3"></i
+                ></a>
+                <h3 class="card-title mb-3">LinkedIn</h3>
+                <p class="card-text">See more about my past jobs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <a href="https://www.instagram.com/J__Darby/" target="_blank"
+                  ><i class="Logo bi bi-instagram text-dark mb-3"></i
+                ></a>
+                <h3 class="card-title mb-3">Instagram</h3>
+                <p class="card-text">See more about my life.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <a href="https://twitter.com/J_Darby_" target="_blank"
+                  ><i class="Logo bi bi-twitter text-dark mb-3"></i
+                ></a>
+                <h3 class="card-title mb-3">Twitter</h3>
+                <p class="card-text">See some of my tweets.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
