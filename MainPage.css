@@ -8,6 +8,10 @@ body::before {
   font-size: 5em;
 }
 
+section {
+  scroll-margin-top: 3em;
+}
+
 @media (min-width: 768px) {
   .mail-input {
     width: 50%;
