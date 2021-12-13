@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" id="Top">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="MainPage.css" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <!--Nav-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">Jai'Mir Darby</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="/MainPage.html" class="nav-link text-secondary">Home</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle text-secondary m-1 mt-2 p-0"
+                  type="button"
+                  id="dropdownMenuButton2"
+                  data-bs-toggle="dropdown"
+                >
+                  About Me
+                </button>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="dropdownMenuButton2"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item nav-link"
+                      href="/MainPage.html#Frontend"
+                      >Frontend</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item nav-link"
+                      href="/MainPage.html#Backend"
+                      >Backend</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="/MainPage.html#FAQ" class="dropdown-item nav-link"
+                      >FAQ</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-secondary">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="/MainPage.html#Contact" class="nav-link text-secondary"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Page content-->
+    <!-- Page header with logo and tagline-->
+    <header
+      style="background-image: url(/Images/pexels-veeterzy-303383.jpg)"
+      class="py-5 border-bottom mb-4 text-light"
+    >
+      <div class="container">
+        <div class="text-center my-5">
+          <h1 class="fw-bolder">Welcome to Blog Home!</h1>
+          <p class="lead mb-0">
+            A Bootstrap 5 starter layout for your next blog homepage
+          </p>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+        <!-- Blog entries-->
+        <div class="col-lg">
+          <!-- Featured blog post-->
+          <div class="card mb-4 mt-5">
+            <a href="#!"
+              ><img
+                class="card-img-top img-fluid"
+                src="/Images/pexels-veeterzy-303383.jpg"
+                alt="..."
+            /></a>
+            <div class="card-body">
+              <div class="small text-muted">January 1, 2021</div>
+              <h2 class="card-title">How It All Started</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a
+                laboriosam. Dicta expedita corporis animi vero voluptate
+                voluptatibus possimus, veniam magni quis!
+              </p>
+              <a
+                class="btn btn-primary"
+                href="/BlogPosts/HowItAllStarted.html"
+                target="_blank"
+                >Read more →</a
+              >
+            </div>
+          </div>
+          <!-- Nested row for non-featured blog posts-->
+          <div class="row">
+            <div class="col-lg">
+              <!-- Blog post-->
+              <div class="card mb-4">
+                <a href="#!"
+                  ><img
+                    class="card-img-top img-fluid"
+                    src="/Images/pexels-pixabay-372748.jpg"
+                    alt="..."
+                /></a>
+                <div class="card-body">
+                  <div class="small text-muted">January 1, 2021</div>
+                  <h2 class="card-title h4">The Writer Behind The Code</h2>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Reiciendis aliquid atque, nulla.
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    href="/BlogPosts/TheWriterPost.html"
+                    target="_blank"
+                    >Read more →</a
+                  >
+                </div>
+              </div>
+              <!-- Blog post-->
+              <div class="card mb-4">
+                <a href="#!"
+                  ><img
+                    class="card-img-top img-fluid"
+                    src="/Images/IMG_7355.JPG"
+                    alt="..."
+                /></a>
+                <div class="card-body">
+                  <div class="small text-muted">January 1, 2021</div>
+                  <h2 class="card-title h4">The Story Of My Life</h2>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Reiciendis aliquid atque, nulla.
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    href="/BlogPosts/LifeStoryPost.html"
+                    target="_blank"
+                    >Read more →</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <!-- Blog post-->
+              <div class="card mb-4">
+                <a href="#!"
+                  ><img
+                    class="card-img-top img-fluid"
+                    src="/Images/pexels-pixabay-270360.jpg"
+                    alt="..."
+                /></a>
+                <div class="card-body">
+                  <div class="small text-muted">January 1, 2021</div>
+                  <h2 class="card-title h4">My Backend Experince</h2>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Reiciendis aliquid atque, nulla.
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    href="/BlogPosts/BackendPost.html"
+                    target="_blank"
+                    >Read more →</a
+                  >
+                </div>
+              </div>
+              <!-- Blog post-->
+              <div class="card mb-4">
+                <a href="#!"
+                  ><img
+                    class="card-img-top img-fluid"
+                    src="/Images/pexels-negative-space-169573.jpg"
+                    alt="..."
+                /></a>
+                <div class="card-body">
+                  <div class="small text-muted">January 1, 2021</div>
+                  <h2 class="card-title h4">My Frontend Experince</h2>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a
+                    laboriosam.
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    href="/BlogPosts/FrontendPost.html"
+                    target="_blank"
+                    >Read more →</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer class="p-5 bg-dark text-light text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021 Jai'Mir Darby</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
